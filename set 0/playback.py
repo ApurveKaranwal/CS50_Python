@@ -2,4 +2,4 @@
 
 lecture = input("tell me something :")
 new=lecture.replace(" ", "...")
-print(new)
+print(f"{new}")
