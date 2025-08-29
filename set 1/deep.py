@@ -3,7 +3,7 @@
 #  Yes if the user inputs 42 or (case-insensitively) forty-two or forty two. Otherwise output No
 
 
-lst1 = ["42","forty two","FORTY TWO","forty-two","FORTY_TWO"]
+lst1 = ["42","forty two","FORTY TWO","forty-two","FORTY_TWO"] #making it case sensitive
 def askQuest(anss):
     if anss in lst1:
          print("yes")
