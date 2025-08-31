@@ -7,7 +7,7 @@ def main(str1):
             snake_case += "_"+ i.lower()
         else:
             snake_case += i
-    print(snake_case)   #move it outside of loop
+    print(snake_case)   #moved it outside of loop, initially it was inside
 
 str1=input("enter a variable name in camelCase :")
 main(str1)
